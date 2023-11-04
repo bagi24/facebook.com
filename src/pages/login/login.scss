@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .login {
   height: 100vh;
   background-color: rgb(193, 190, 255);
@@ -26,13 +32,19 @@
       color: white;
 
       h1 {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 100px;
+        line-height: 100px;
       }
       p {
+        font-size: 16px;
       }
       span {
         font-size: 14px;
+
+        &:hover {
+          color: #938eef;
+          cursor: pointer;
+        }
       }
       button {
         width: 50%;

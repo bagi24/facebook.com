@@ -5,8 +5,11 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Facebook</h1>
-          <p>Connect with friends and the world around you on Facebook.</p>
+          <h1>Hello World.</h1>
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
           <span>Dont't you have an account? </span>
           <button>Register</button>
         </div>
