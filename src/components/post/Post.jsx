@@ -12,7 +12,7 @@ const Post = ({ post }) => {
   const [commentOpen, setCommentOpen] = useState(false);
 
   //TEMPORARY
-  const liked = false;
+  const liked = true;
 
   return (
     <div className="post">
